@@ -1,0 +1,59 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "48D3B71F-1",
+    "build_number": 1,
+    "build_time": 1674642627124,
+    "release": false
+  },
+  "encryptLevel": 0,
+  "features": {
+    "activityIntentTasks": true,
+    "nodejs": "auto"
+  },
+  "icon": "images/ic_app_logo.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "images/ic_splash.png",
+    "splashText": "@Suroy.cn",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "京东小助手",
+  "optimization": {
+    "obfuscateComponents": false,
+    "removeAccessibilityService": false,
+    "removeOpenCv": true,
+    "unusedResources": true
+  },
+  "packageName": "cn.suroy.jdtools",
+  "permissionConfig": {
+    "manifestPermissions": [
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.INTERNET"
+    ],
+    "requestListOnStartup": [
+      "android.permission.ACCEPT_HANDOVER",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.INTERNET",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.SYSTEM_ALERT_WINDOW"
+    ]
+  },
+  "scripts": {},
+  "signingConfig": {
+    "alias": "Studio of Suroy",
+    "keystore": "/storage/emulated/0/Scripts/.keystore/SUROYSTUDIO.jks",
+    "uuid": "182e667f-325a-4c86-a3bc-63f3a097c68d"
+  },
+  "useFeatures": [],
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}
